@@ -6,7 +6,7 @@
   "background": {
     "service_worker": "background.js"
   },
-  "permissions": ["storage", "activeTab", "scripting"],
+  "permissions": [],
   "host_permissions": ["https://www.callingtaiwan.com.tw/foodpanda-coupon-code/*"],
   "action": {
     "default_popup": "popup.html",
