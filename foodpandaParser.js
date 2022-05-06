@@ -1,0 +1,1 @@
+$.ajax({ url: 'your-url', success: function(data) { alert(data); } });
