@@ -1,27 +1,26 @@
 {
-  "name": "Getting Started Example",
-  "description": "Build an Extension!",
+  "name": "CouponEat",
+  "description": "Get coupons with one click",
   "version": "1.0",
   "manifest_version": 3,
   "background": {
-    "scripts": ["thirdParty/jquery-2.0.3.js"],
     "service_worker": "background.js"
   },
   "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["https://www.callingtaiwan.com.tw/foodpanda-coupon-code/*"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "/images/get_started16.png",
-      "32": "/images/get_started32.png",
-      "48": "/images/get_started48.png",
-      "128": "/images/get_started128.png"
+      "16": "images/couponeat16.png",
+      "32": "images/couponeat32.png",
+      "48": "images/couponeat64.png",
+      "128": "images/couponeat128.png"
     }
   },
   "icons": {
-    "16": "/images/get_started16.png",
-    "32": "/images/get_started32.png",
-    "48": "/images/get_started48.png",
-    "128": "/images/get_started128.png"
-  },
-  "options_page": "options.html"
+    "16": "images/couponeat16.png",
+    "32": "images/couponeat32.png",
+    "48": "images/couponeat64.png",
+    "128": "images/couponeat128.png"
+  }
 }
